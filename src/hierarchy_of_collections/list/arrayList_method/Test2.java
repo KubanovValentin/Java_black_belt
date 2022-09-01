@@ -13,7 +13,7 @@ class ArrayListMethod2 {
         Student st3 = new Student("Елена", 'ж', 19, 1, 8.9);
         Student st4 = new Student("Петр", 'м', 35, 4, 7);
         Student st5 = new Student("Мария", 'ж', 23, 3, 7.4);
-        ArrayList<Student>studentList=new ArrayList<>();
+        ArrayList<Student> studentList = new ArrayList<>();
         studentList.add(st1);
         studentList.add(st2);
         studentList.add(st3);
