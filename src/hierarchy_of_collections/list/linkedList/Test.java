@@ -17,7 +17,19 @@ class LinkedListEx1{
         student2LinkedList.add(st3);
         student2LinkedList.add(st4);
         student2LinkedList.add(st5);
+        Student2 st6 = new Student2("Валентин", 2);
+        Student2 st7 = new Student2("Настасия", 1);
+        Student2 st8=st1;
         System.out.println("LinkedList = "+student2LinkedList);
+//        System.out.println(student2LinkedList.get(4));
+        student2LinkedList.add(0,st6);
+        student2LinkedList.add(1,st7);
+        System.out.println("LinkedList = "+student2LinkedList);
+        Student2 st9=st1;
+        System.out.println(st8==st9);
+        student2LinkedList.remove(4);
+        System.out.println("LinkedList = "+student2LinkedList);
+
 
     }
 }
